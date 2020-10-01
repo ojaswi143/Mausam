@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
 
-                    Toast.makeText(getApplicationContext(),"Cant find weather!!!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Cannot find weather!!!",Toast.LENGTH_SHORT).show();
 
                 }
             } catch (Exception e){
