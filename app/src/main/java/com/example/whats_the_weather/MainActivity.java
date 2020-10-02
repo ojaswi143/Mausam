@@ -114,9 +114,14 @@ public class MainActivity extends AppCompatActivity {
                 if(!msg.equals("")){
                     resultTextView.setText(msg);
                     //Toast.makeText(getApplicationContext(),"hello",Toast.LENGTH_SHORT).show();
-                }else {
-
+                }
+                else if(msg.equals("can't show"))
+                {
                     Toast.makeText(getApplicationContext(),"Cant find weather!!!",Toast.LENGTH_SHORT).show();
+                }
+                else {
+
+                    Toast.makeText(getApplicationContext(),"Cannot find weather!!!",Toast.LENGTH_SHORT).show();
 
                 }
             } catch (Exception e){
